@@ -1,0 +1,156 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>TechZone - Tienda de computadores</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head> 
+
+<body> 
+
+    <header> 
+        <img src="imagenes/logo1.png" alt="logo TechZone" class="logo"> 
+        <h1>seccion de compras</h1> 
+        
+        <nav> 
+            <a href="#">Inicio</a> 
+            <a href="#">Productos</a> 
+            <a href="#">Ofertas</a> 
+            <a href="#">Nosotros</a> 
+            <a href="#">Contacto</a> 
+        </nav> 
+
+        <div class="botones"> 
+            <button class="login">Iniciar sesión</button> 
+            <button class="comprar">Comprar</button> 
+        </div> 
+    </header>
+
+
+    <!-- AQUÍ EMPIEZA LA VENTA DE LAPTOPS -->
+
+    <section class="productos">
+
+        <h2>Venta de Laptops</h2>
+        <p>Encuentra las mejores laptops al mejor precio</p>
+
+        <div class="productos-container">
+
+            <div class="producto">
+                <img src="imagenes/labtod 1.jpg" alt="Laptop Básica">
+                <h3>Laptop Básica</h3>
+                <p>Intel i3 · 8GB RAM · 256GB SSD</p>
+                <p>Pantalla 14" · Windows 11</p>
+                <h3 class="precio">$1.250.000 COP</h3>
+                <button>🛒 Agregar al carrito</button>
+            </div>
+
+
+            <div class="producto">
+                <img src="imagenes/labtod 2.webp" alt="Laptop Intermedia">
+                <h3>Laptop Intermedia</h3>
+                <p>Intel i5 · 16GB RAM · 512GB SSD</p>
+                <p>Pantalla 15.6" · Windows 11</p>
+                <h3 class="precio">$2.350.000 COP</h3>
+                <button>🛒 Agregar al carrito</button>
+            </div>
+
+
+            <div class="producto">
+                <img src="imagenes/labtod 3.webp" alt="Laptop Gaming">
+                <h3>Laptop Gaming</h3>
+                <p>Intel i7 · 16GB RAM · 512GB SSD</p>
+                <p>RTX 3050 · Pantalla 15.6"</p>
+                <h3 class="precio">$3.950.000 COP</h3>
+                <button>🛒 Agregar al carrito</button>
+            </div>
+
+
+            <div class="producto">
+                <img src="imagenes/labtod4.webp" alt="Laptop Profesional">
+            >
+                <h3>Laptop Profesional</h3>
+                <p>Intel i7 · 32GB RAM · 1TB SSD</p>
+                <p>Pantalla 16" · Windows 11 Pro</p>
+                <h3 class="precio">$5.450.000 COP</h3>
+                <button>🛒 Agregar al carrito</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- INVENTARIO -->
+
+    <section class="inventario">
+
+        <h2>Inventario</h2>
+        <p>Listado de laptops disponibles en inventario</p>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Modelo</th>
+                    <th>Procesador</th>
+                    <th>RAM</th>
+                    <th>Almacenamiento</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>001</td>
+                    <td>Laptop Básica</td>
+                    <td>Intel i3</td>
+                    <td>8GB</td>
+                    <td>256GB SSD</td>
+                    <td>$1.250.000</td>
+                    <td>15</td>
+                </tr>
+
+                <tr>
+                    <td>002</td>
+                    <td>Laptop Intermedia</td>
+                    <td>Intel i5</td>
+                    <td>16GB</td>
+                    <td>512GB SSD</td>
+                    <td>$2.350.000</td>
+                    <td>10</td>
+                </tr>
+
+                <tr>
+                    <td>003</td>
+                    <td>Laptop Gaming</td>
+                    <td>Intel i7</td>
+                    <td>16GB</td>
+                    <td>512GB SSD</td>
+                    <td>$3.950.000</td>
+                    <td>7</td>
+                </tr>
+
+                <tr>
+                    <td>004</td>
+                    <td>Laptop Profesional</td>
+                    <td>Intel i7</td>
+                    <td>32GB</td>
+                    <td>1TB SSD</td>
+                    <td>$5.450.000</td>
+                    <td>5</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+</body> 
+</html>
+
